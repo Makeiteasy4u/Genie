@@ -7,7 +7,7 @@
         <extension point="xbmc.addon.repository" name="Ghost Addon Repository">
             <info compressed="false">https://raw.githubusercontent.com/Makeiteasy4u/Genie/master/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/Makeiteasy4u/Genie/master/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/Makeiteasy4u/Genie/master/</datadir>
+            <datadir zip="true">https://raw.githubusercontent.com/Makeiteasy4u/Genie/master/zip</datadir>
             <hashes>false</hashes>
         </extension>
         <extension point="xbmc.addon.metadata">
