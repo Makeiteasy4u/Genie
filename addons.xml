@@ -1,31 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.Ghost" name="IPTV-Ghost" version="2.1.1" provider-name="makeit">
-    <requires>
-		<import addon="xbmc.python" version="2.19.0"/>
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="addon.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.service" library="server.py" start="startup" />
-	<extension point="xbmc.addon.metadata">
-		<platform>all</platform>
-		<summary lang="en">IPTV-Ghost</summary>
-		<description lang="en">Enjoy, this is fully version updated automatically</description>
-		<license>GNU General Public License, v2</license>
-		<language></language>
-
-	</extension>
-</addon>
-
     <addon id="repository.Ghost-repo" name="Ghost Repository" version="4.1.0" provider-name="makeit">
         <requires>
             <import addon="xbmc.addon" version="12.0.0"/>
         </requires>
         <extension point="xbmc.addon.repository" name="Ghost Addon Repository">
-            <info compressed="false">https://github.com/Makeiteasy4u/Genie/addons.xml</info>
-            <checksum>https://github.com/Makeiteasy4u/Genie/addons.xml.md5</checksum>
-            <datadir zip="true">https://github.com/Makeiteasy4u/Genie/</datadir>
+            <info compressed="false">https://raw.githubusercontent.com/Makeiteasy4u/Genie/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/Makeiteasy4u/Genie/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/Makeiteasy4u/Genie/master/</datadir>
             <hashes>false</hashes>
         </extension>
         <extension point="xbmc.addon.metadata">
